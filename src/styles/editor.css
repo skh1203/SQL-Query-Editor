@@ -1,0 +1,72 @@
+.ace_gutter {
+    z-index: 0;
+}
+
+.ace_placeholder {
+    z-index: 0 !important;
+    color: gray !important;
+    opacity: 0.7 !important;
+    margin: 0 !important;
+    font-weight: 500 !important;
+}
+
+.editor {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0 1rem;
+    padding-top: 0.7rem !important;
+}
+
+.editor-title {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 6rem;
+    background-color: #E5E7EB;
+    font-size: 1.1rem;
+}
+
+.editor .cm-theme-light {
+    height: 80%;
+}
+
+.editor .cm-theme-light .cm-editor {
+    height: 100%;
+}
+
+.editor .cm-theme-light .cm-editor .cm-gutters {
+    background-color: #e5e7eb;
+}
+
+.editor .buttons {
+    text-align: right;
+    margin: 10px 0;
+
+}
+
+.editor .buttons .button {
+    cursor: pointer;
+    max-height: 40px;
+    height: 100%;
+    width: 80px;
+    font-size: 14px;
+    padding: 6px 15px;
+    border-radius: 6px;
+    border: none;
+    margin-left: 10px;
+}
+
+.editor .buttons .button.run {
+    background-color: #6366F1;
+    color: white;
+}
+
+.editor .buttons .button.clear {
+    background-color: #d1d5db;
+}
+
+.editor .buttons .button.clear:hover {
+    background-color: #9ca3af;
+}

@@ -1,0 +1,47 @@
+.output {
+    height: 47vh;
+    overflow: auto;
+}
+
+.output::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.output::-webkit-scrollbar-thumb {
+    background: #d1d5db;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.ouput::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+.output-title {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 6rem;
+    background-color: #E5E7EB;
+    font-size: 1.1rem;
+}
+
+.result-notFound {
+    margin: 20px 0;
+    color: #6b7280;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    font-size: 20px;
+    text-shadow: 2px 2px 7px #9ca3af;
+    font-weight: 600;
+}

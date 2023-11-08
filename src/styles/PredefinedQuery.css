@@ -1,0 +1,54 @@
+.query-container {
+    padding: 1rem;
+    color: #818cf8;
+    height: 100vh;
+}
+
+.query-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg {
+    fill: currentColor;
+    margin-right: 0.75rem;
+}
+
+.query-text {
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin-bottom: 0;
+}
+
+
+.query-main {
+    overflow: auto;
+    scrollbar-width: thin;
+    margin-bottom: 1.5rem;
+    height: 100%;
+}
+
+.query-box {
+    cursor: pointer;
+    background-color: #818cf8;
+    transition: background-color 0.2s;
+    font-family: monospace;
+    padding: 0.8rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    color: #fff;
+}
+
+.query-box:hover {
+    background-color: #6e78d5
+}
+
+
+@media (min-width: 768px) {
+    .query-main {
+        margin-bottom: 0;
+    }
+}

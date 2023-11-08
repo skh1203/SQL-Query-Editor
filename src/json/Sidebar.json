@@ -1,0 +1,226 @@
+[
+    {
+        "title": "Employee",
+        "icon": "bi-info-circle-fill",
+        "childrens": [
+            {
+                "title": "employeeID",
+                "subtitle": "[int]",
+                "parent": "Employee"
+            },
+            {
+                "title": "firstName",
+                "subtitle": "[varchar(40)]",
+                "parent": "Employee"
+            },
+            {
+                "title": "lastName",
+                "subtitle": "[varchar(40)]",
+                "parent": "Employee"
+            },
+            {
+                "title": "title",
+                "subtitle": "[varchar(40)]",
+                "parent": "Employee"
+            },
+            {
+                "title": "birthDate",
+                "subtitle": "[date]",
+                "parent": "Employee"
+            },
+            {
+                "title": "hireDate",
+                "subtitle": "[date]",
+                "parent": "Employee"
+            },
+            {
+                "title": "address",
+                "subtitle": "[varchar(40)]",
+                "parent": "Employee"
+            },
+            {
+                "title": "homePhone",
+                "subtitle": "[varchar(40)]",
+                "parent": "Employee"
+            }
+        ]
+    },
+    {
+        "title": "Customers",
+        "icon": "bi-gear-fill",
+        "childrens": [
+            {
+                "title": "customerID",
+                "subtitle": "[varchar(40)]",
+                "parent": "Customers"
+            },
+            {
+                "title": "company",
+                "subtitle": "[varchar(50)]",
+                "parent": "Customers"
+            },
+            {
+                "title": "contactName",
+                "subtitle": "[varchar(40)]",
+                "parent": "Customers"
+            },
+            {
+                "title": "contactTitle",
+                "subtitle": "[varchar(40)]",
+                "parent": "Customers"
+            },
+            {
+                "title": "address",
+                "subtitle": "[varchar(40)]",
+                "parent": "Customers"
+            },
+            {
+                "title": "city",
+                "subtitle": "[varchar(40)]",
+                "parent": "Customers"
+            },
+            {
+                "title": "region",
+                "subtitle": "[varchar(40)]",
+                "parent": "Customers"
+            },
+            {
+                "title": "postalCode",
+                "subtitle": "[varchar(40)]",
+                "parent": "Customers"
+            },
+            {
+                "title": "country",
+                "subtitle": "[varchar(40)]",
+                "parent": "Customers"
+            },
+            {
+                "title": "phone",
+                "subtitle": "[varchar(40)]",
+                "parent": "Customers"
+            },
+            {
+                "title": "fax",
+                "subtitle": "[varchar(40)]",
+                "parent": "Customers"
+            }
+        ]
+    },
+    {
+        "title": "Suppliers",
+        "icon": "bi-info-circle-fill",
+        "childrens": [
+            {
+                "title": "supplierID",
+                "subtitle": "[int]",
+                "parent": "Suppliers"
+            },
+            {
+                "title": "companyName",
+                "subtitle": "[varchar(40)]",
+                "parent": "Suppliers"
+            },
+            {
+                "title": "contactName",
+                "subtitle": "[varchar(40)]",
+                "parent": "Suppliers"
+            },
+            {
+                "title": "contactTitle",
+                "subtitle": "[varchar(40)]",
+                "parent": "Suppliers"
+            },
+            {
+                "title": "address",
+                "subtitle": "[varchar(40)]",
+                "parent": "Suppliers"
+            },
+            {
+                "title": "city",
+                "subtitle": "[varchar(40)]",
+                "parent": "Suppliers"
+            },
+            {
+                "title": "postalCode",
+                "subtitle": "[int]",
+                "parent": "Suppliers"
+            },
+            {
+                "title": "country",
+                "subtitle": "[varchar(40)]",
+                "parent": "Suppliers"
+            },
+            {
+                "title": "phone",
+                "subtitle": "[varchar(40)]",
+                "parent": "Suppliers"
+            }
+        ]
+    },
+    {
+        "title": "Orders",
+        "icon": "bi-box-seam-fill",
+        "childrens": [
+            {
+                "title": "orderID",
+                "subtitle": "[int]",
+                "parent": "Orders"
+            },
+            {
+                "title": "customerID",
+                "subtitle": "[varchar(40)]",
+                "parent": "Orders"
+            },
+            {
+                "title": "employeeID",
+                "subtitle": "[int]",
+                "parent": "Orders"
+            },
+            {
+                "title": "orderDate",
+                "subtitle": "[date]",
+                "parent": "Orders"
+            },
+            {
+                "title": "requiredDate",
+                "subtitle": "[date]",
+                "parent": "Orders"
+            },
+            {
+                "title": "shippedDate",
+                "subtitle": "[date]",
+                "parent": "Orders"
+            },
+            {
+                "title": "shipVia",
+                "subtitle": "[int]",
+                "parent": "Orders"
+            },
+            {
+                "title": "freight",
+                "subtitle": "[float]",
+                "parent": "Orders"
+            },
+            {
+                "title": "shipName",
+                "subtitle": "[varchar(40)]",
+                "parent": "Orders"
+            },
+            {
+                "title": "shipAddress",
+                "subtitle": "[varchar(40)]",
+                "parent": "Orders"
+            },
+            {
+                "title": "shipCity",
+                "subtitle": "[varchar(40)]",
+                "parent": "Orders"
+            },
+            {
+                "title": "shipCountry",
+                "subtitle": "[varchar(40)]",
+                "parent": "Orders"
+            }
+        ]
+    }
+]
