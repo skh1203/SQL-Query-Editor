@@ -1,7 +1,8 @@
-![image](https://github.com/skh1203/SQL-Query-Editor/assets/76679739/d1c1afe0-bd6f-42e5-bf57-d2ef2bc61bb3)
 <h1 align="center">React SQL Editor</h1>
 
 This React application is built using ReactJS and Bootstrap. It offers an intuitive interface for writing and executing queries, with real-time results displayed.
+
+![image](https://github.com/skh1203/SQL-Query-Editor/assets/76679739/d1c1afe0-bd6f-42e5-bf57-d2ef2bc61bb3)
 
 ## Components
 
