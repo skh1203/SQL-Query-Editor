@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+![image](https://github.com/skh1203/SQL-Query-Editor/assets/76679739/d1c1afe0-bd6f-42e5-bf57-d2ef2bc61bb3)
+<h1 align="center">React SQL Editor</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This React application is built using ReactJS and Bootstrap. It offers an intuitive interface for writing and executing queries, with real-time results displayed.
 
-## Available Scripts
+## Components
 
-In the project directory, you can run:
+- **Code Editor:** This section allows users to write their SQL queries.
+- **Output Section:** This section displays the output of the user query.
+- **Table Names Section:** This section displays tables and their schemas. Clicking on a table displays its data.
+- **Available Queries Section:** Lists both custom and user-saved queries for quick and easy access.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Run:** To execute the queries
+- **Clear:** To clear the text in the editor.
+- **Save:** To save the queries.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+_Note : For now only SELECT FROM queries on the tables are supported._
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Predefined Queries
+1. ```SELECT * FROM Customers```
+2. ```SELECT * FROM Employees;```
+3. ```Select supplierID, companyName FROM Suppliers;```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br>
 
-### `npm run eject`
+## Dependencies Installed
+- ace-builds: ```^1.31.1``` - Editor to write queries
+- papaparse: ```^5.4.1``` - To parse CSV files
+- react-ace: ```^10.1.0``` - Code editor component
+- react-bootstrap: ```^2.9.1``` - React Bootstrap for UI components
+- react-modal: ```^3.16.1``` - Modal dialogs
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Performance metrics
+Page Load time of this website in desktop is around 0.45s. Performance metrics are calculated using GTmetrix.
+![image](https://github.com/skh1203/SQL-Query-Editor/assets/76679739/62f6c4ce-a6ac-40a8-884b-8fca965af10e)
+![image](https://github.com/skh1203/SQL-Query-Editor/assets/76679739/f8147b95-ce06-4faa-a5ad-af0230f03295)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
